@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from 'gatsby';
 import Layout from "./Layout";
+import Home from "./Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/index.css'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
@@ -177,7 +178,7 @@ const IndexPage = () => {
     // </main>
     <Layout>
 
-  
+  <Home />
 
    
     </Layout>
