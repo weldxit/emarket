@@ -19,7 +19,7 @@ export default function Header() {
                   style={{ maxHeight: '100px' }}
                   navbarScroll
                 >
-//                   <Nav.Link as ={Link} to={'/Home'}>Home</Nav.Link>
+
                   <Nav.Link as ={Link} to={'/Sell'}>Sell</Nav.Link>
                   <Nav.Link as ={Link} to={'/Buy'}>Buy</Nav.Link>
                   <Nav.Link as={Link} to={'/About'}>About</Nav.Link>
