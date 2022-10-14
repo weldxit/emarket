@@ -1,0 +1,9 @@
+.box{
+    background-color: rgb(167, 212, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+}
