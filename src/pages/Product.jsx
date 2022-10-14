@@ -6,24 +6,15 @@ import {
     MDBCardTitle,
     MDBCardText,
     MDBRow,
-    MDBCol,
-    MDBBtn
+    MDBCol
   } from 'mdb-react-ui-kit';
-  import SimpleContainer from './Container';
-  import Box2 from './Box2';
-  import { Link } from 'gatsby';
 export default function Product() {
   return (
-    <Box2>
-    <SimpleContainer>
-
-   
-
-    <MDBRow className='row-cols-3 row-cols-md-4 g-4' id="sell">
+    <MDBRow className='row-cols-2 row-cols-md-6 g-3' id="sell">
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -33,16 +24,41 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>This is a short card.</MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/044.webp'
           alt='...'
           position='top'
         />
@@ -52,16 +68,13 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -71,16 +84,13 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -90,17 +100,13 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -110,37 +116,13 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
-          alt='...'
-          position='top'
-          />
-        <MDBCardBody>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            This is a longer card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-          </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
-
-
-    <MDBCol>
-      <MDBCard className='h-100'>
-        <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -150,17 +132,13 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-
-
     <MDBCol>
       <MDBCard className='h-100'>
         <MDBCardImage
-          src='icon.png'
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
           alt='...'
           position='top'
         />
@@ -170,15 +148,154 @@ export default function Product() {
             This is a longer card with supporting text below as a natural lead-in to additional content.
             This content is a little bit longer.
           </MDBCardText>
-          <MDBBtn href='/Home'> Buy </MDBBtn>
-
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
 
-</MDBRow>
-         
-          </SimpleContainer>
-          </Box2>
+     <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+     <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol> <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+      <MDBCard className='h-100'>
+        <MDBCardImage
+          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+          alt='...'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            This is a longer card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+
+  </MDBRow>
   )
 }
