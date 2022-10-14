@@ -1,9 +1,9 @@
 .sign{
-    /* background: #efa5e657 !important; */
-    /* min-height: 80vh; */
+    background: #efa5e657 !important;
+    min-height: 80vh;
     display:flex;
     justify-content: center;
-    font-weight: 200;
+    font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
     padding: 0;
     margin: 0;
@@ -15,10 +15,10 @@
 .sign>form>h3{
     color: rgb(0, 0, 0);
 }
-/* .main{
-    display: inline-block;
+.main{
+    display: flex;
     justify-content: space-between;
-} */
+}
 .left{
     padding-right: 5px;
 }
